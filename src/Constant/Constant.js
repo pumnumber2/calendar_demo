@@ -12,7 +12,7 @@ const rawEventList = [{
   date: `2021-10-17`,
   time: `10:30`,
   durationMinute: 210,
-  title: `shopping`
+  title: `shopping 1`
 }, {
   date: `2021-10-17`,
   time: `11:30`,

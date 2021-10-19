@@ -1,0 +1,27 @@
+#edit-event-form-container {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.notice-text {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.text-input-placeholder {
+  font-size: 0.8rem;
+  color: gray;
+  margin-bottom: 4px;
+}
+
+.form-item {
+  margin: 10px 0px;
+}
+
+.edit-form-container {
+  width: 500px;
+}

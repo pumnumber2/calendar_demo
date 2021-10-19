@@ -1,5 +1,9 @@
+import { v4 as generateUniqueId } from 'uuid';
+
 const eventListModel = (eventList) => {
-  return eventList.map(eventModel);
+  return eventList.map(eventModel).reduce((acc, cur) => {
+    return ({ ...acc, [cur.id]: cur });
+  }, {});
 };
 
 const convertDateTimeToTimeStamp = (dateString, time) => {
@@ -17,6 +21,7 @@ const eventModel = (event) => {
   return ({
     start: startTimeStamp,
     end: endTimeStamp,
+    id: generateUniqueId(),
     ...other,
   });
 };

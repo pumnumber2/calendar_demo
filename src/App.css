@@ -9,20 +9,8 @@
   width: 100vw;
   height: 100vh;
   display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.App > * {
-  margin: 0px 10px;
-}
-
-.App > *:first-child {
-  margin-left: 0px;
-}
-
-.App > *:last-child {
-  margin-right: 0px;
+  flex-direction: column;
+  padding: 30px;
 }
 
 .route-button {
@@ -44,6 +32,39 @@
 }
 
 .calendar-app-container {
-  width: 100%;
-  height: 100%;
+  display: flex;
+  flex: 2;
+}
+
+.calendar-edit-form-container {
+  flex: 1;
+}
+
+.calendar-content-container {
+  flex: 3;
+}
+
+.fc-event-main-frame {
+  white-space: normal;
+}
+
+#author-header {
+  display: flex;
+  align-items: center;
+}
+
+#author-header > * {
+  margin: 0px 4px;
+}
+
+#author-header > *:first-child {
+  margin-left: 0px;
+}
+
+#author-header > *:last-child {
+  margin-left: 0px;
+}
+
+.remove-event-btn {
+  margin: 10px 0px;
 }
