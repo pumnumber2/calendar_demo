@@ -1,0 +1,31 @@
+a[aria-label*=Sunday] {
+  color: red !important;
+}
+
+a[aria-label*=Monday] {
+  color: #cccc00 !important;
+}
+
+a[aria-label*=Tuesday] {
+  color: palevioletred !important;
+}
+
+a[aria-label*=Wednesday] {
+  color: green !important;
+}
+
+a[aria-label*=Thursday] {
+  color: darkorange !important;
+}
+
+a[aria-label*=Friday] {
+  color: blue !important;
+}
+
+a[aria-label*=Saturday] {
+  color: darkslateblue !important;
+}
+
+.fc-button-primary {
+  text-transform: capitalize !important;
+}

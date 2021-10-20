@@ -25,3 +25,15 @@
 .edit-form-container {
   width: 500px;
 }
+
+.add-event-btn {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #378ce6;
+}
+
+.add-event-btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #1378e4;
+}

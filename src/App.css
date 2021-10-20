@@ -10,7 +10,7 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  padding: 30px;
+  padding: 0px 30px;
 }
 
 .route-button {

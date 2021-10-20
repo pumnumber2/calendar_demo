@@ -78,7 +78,7 @@ const EditCalendarEventForm = () => {
         </div>
       ) : (
         <div className="notice-text" id="select-event-to-edit-detail">
-          Click at event to edit event
+          Click at event to edit event or click <span onClick={() => { dispatch({ type: 'ADD_EVENT' }) }} className="add-event-btn">Here</span> to add event
         </div>
       )}
     </div>

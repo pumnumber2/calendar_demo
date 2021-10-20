@@ -1,3 +1,4 @@
+import { v4 as generateUniqueId } from 'uuid';
 const eventListReducer = (state, { type, ...action }) => {
   switch (type) {
     case 'EVENT_CLICKED': {
@@ -28,6 +29,25 @@ const eventListReducer = (state, { type, ...action }) => {
       delete state.eventList[action.id];
       state.selectedEventID = '';
       return { ...state }
+    }
+    case 'ADD_EVENT': {
+      const newEventID = generateUniqueId();
+      const start = Date.now();
+      const end = start + 3600000;
+      state = {
+        ...state,
+        selectedEventID: newEventID,
+        eventList: {
+          ...state.eventList,
+          [newEventID]: {
+            id: newEventID,
+            title: 'New Event',
+            start,
+            end,
+          },
+        },
+      }
+      return state;
     }
     default:
       return state;
