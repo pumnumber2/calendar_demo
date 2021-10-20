@@ -2,9 +2,14 @@
 
 (https://github.com/facebook/create-react-app).
 
+### Instruction
+- First clone this repository into your local machine
+- install package via package manager such as yarn, npm, etc.
+- to run in development mode use `yarn start` or `npm start` to run development mode.
+
 ## Available Scripts
 
-In the project directory, you can run:
+In the project directory, you can run with your package installer
 
 ### `yarn start`
 
