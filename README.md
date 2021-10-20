@@ -3,7 +3,7 @@
 (https://github.com/facebook/create-react-app).
 
 ### Instruction
-- First clone this repository into your local machine
+- First clone this repository into your local machine by paste this command into your terminal `git clone https://github.com/pumnumber2/calendar_demo.git` (make sure you installed git into your machine and your terminal)
 - install package via package manager such as yarn, npm, etc.
 - to run in development mode use `yarn start` or `npm start` to run development mode.
 
